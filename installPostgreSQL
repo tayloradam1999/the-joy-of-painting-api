@@ -12,5 +12,9 @@ sudo apt-get update
 sudo apt-get -y install postgresql
 # run an update just incase
 sudo apt-get update
+# allow for TCP access
+sudo ufw allow 5432/tcp
+# restart
+sudo service postgresql restart
 # enter postgresql command line as postgres
 sudo -u postgres psql
