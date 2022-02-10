@@ -2,8 +2,8 @@
 --
 -- SQL script that sets up the database for the Joy of Painting API.
 --
--- After connecting to the new database, the script creates 3 different tables
--- to hold the data from our datasets. 
+-- After your postgres database is created through installing PostgreSQL, this script
+-- will create the 3 tables neccessary for the API.
 
 -- Create episode_dates table
 CREATE TABLE IF NOT EXISTS episode_dates(
