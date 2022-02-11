@@ -32,7 +32,7 @@ Your local broadcasting station has already done some leg work to gather data, h
     - SQL scripts must run locally
 	- Free choice of SQL databases (I chose PostgreSQL)
 - Extract, Transform, Load
-  - Write custom scripts in JS that imports our datasets correctly from the given files into our new database.
+  - Write custom scripts in python that import our datasets correctly from the given files into our new database.
   - Validate all data matches correctly before commiting to storage.
     - Handle data validation via script or via the data-cleanup process
 - Create the API
