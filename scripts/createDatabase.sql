@@ -7,7 +7,8 @@
 
 -- Create episode_dates table
 CREATE TABLE IF NOT EXISTS episode_dates(
-	title text PRIMARY KEY,
+	id SERIAL PRIMARY KEY,
+	title text NOT NULL,
 	episode_date text NOT NULL
 );
 
@@ -45,7 +46,8 @@ CREATE TABLE IF NOT EXISTS colors_used(
 
 -- Create subject_matter table
 CREATE TABLE IF NOT EXISTS subject_matter(
-	episode text PRIMARY KEY,
+	id SERIAL PRIMARY KEY,
+	episode text NOT NULL,
 	title text NOT NULL,
 	APPLE_FRAME INTEGER NOT NULL,
 	AURORA_BOREALIS INTEGER NOT NULL,

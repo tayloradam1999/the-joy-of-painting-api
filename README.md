@@ -50,3 +50,10 @@ Your local broadcasting station has already done some leg work to gather data, h
 - **Note:** Multiple filters should be usable at the same time and filters should allow the user to select multiple items (like selecting multiple colors to filter by). 
   - When multiple filters are selected, the user should be able to specify if the filter should look for episodes that match all of the selected filters (meaning all filters must apply to every episode that is returned) OR be able to set the filters to look for an episode that includes one or more matches (a union of the filters, for example: one episode matches one of the colors selected but not the object painted while another episode matches on the month it aired, but not the color or object drawn).
   
+## Deadline Reached
+As the deadline was reached, I was not able to meet all of this project's requirements. I fell short in time when it came to creating the API, but I was able to achieve the following:
+- Creating the database with the format of my UML design document (using PostgreSQL, a database which I have never used prior to working on this project)
+- Using Pandas to handle the ETL process
+- Using DBeaver's GUI to view my local postgres database
+- Validate all data matches correctly before commiting to storage
+At the end of it all, I am very happy with my takeaway from this project. I am now exponentially more comfortable with the ETL process alongside utilizing data visualization applications and interfaces. Luckily enough, our next project expands on everything I have learned through the duration of this project, and I am very excited to continue expanding my knowledge of ETL and data visualization.
