@@ -55,5 +55,6 @@ As the deadline was reached, I was not able to meet all of this project's requir
 - Creating the database with the format of my UML design document (using PostgreSQL, a database which I have never used prior to working on this project)
 - Using Pandas to handle the ETL process
 - Using DBeaver's GUI to view my local postgres database
-- Validate all data matches correctly before commiting to storage
+- Validate all data matches correctly before commiting to storage  
+  
 At the end of it all, I am very happy with my takeaway from this project. I am now exponentially more comfortable with the ETL process alongside utilizing data visualization applications and interfaces. Luckily enough, our next project expands on everything I have learned through the duration of this project, and I am very excited to continue expanding my knowledge of ETL and data visualization.
