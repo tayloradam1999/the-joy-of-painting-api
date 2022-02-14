@@ -14,6 +14,6 @@ def create_app():
 
 app = create_app()
 
-
+# app will not run, could not implement API in time for deadline
 if __name__ == '__main__':
 	app.run()
